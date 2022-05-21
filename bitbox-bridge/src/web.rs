@@ -61,6 +61,7 @@ fn is_valid_origin(host: &str) -> bool {
         || host == "pocketbitcoin.com"
         || host.ends_with(".adalite.io")
         || host == "adalite.io"
+        || host.ends_with(".local")
 }
 
 fn add_origin(
